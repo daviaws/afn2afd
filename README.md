@@ -52,14 +52,18 @@ Ex: '--q1'
 
 Exemplos de tabelas de entrada:
 
-1. Com epsilon transição:<br>
-       |    a    |   b   |    eps    |<br>
---q1*  |    -    |   q2  |    q3     |<br>
-  q2   |  q2,q3  |   q3  |     -     |<br>
-  q3   |    q1   |   -   |     -     |<br>
+<pre>
+1. Com epsilon transição:
+       |    a    |   b   |    eps    |
+--q1*  |    -    |   q2  |    q3     |
+  q2   |  q2,q3  |   q3  |     -     |
+  q3   |    q1   |   -   |     -     |
+</pre>
 
-2. Sem epsiolon transição:<br>
-       |    a    |   b   |<br>
---q1*  |    -    |   q2  |<br>
-  q2   |  q2,q3  |   q3  |<br>
-  q3   |    q1   |   -   |<br>
+<pre>
+2. Sem epsiolon transição:
+       |    a    |   b   |
+--q1*  |    -    |   q2  |
+  q2   |  q2,q3  |   q3  |
+  q3   |    q1   |   -   |
+</pre>
