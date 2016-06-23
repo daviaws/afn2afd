@@ -51,8 +51,9 @@ Ex: '--q1'
 
 
 Exemplos de tabelas de entrada:
+
 1. Com epsilon transição:
-       |    a    |   b   |    eps    |
+       |    a    |   b   |    eps    |<br>
 --q1*  |    -    |   q2  |    q3     |
   q2   |  q2,q3  |   q3  |     -     |
   q3   |    q1   |   -   |     -     |
